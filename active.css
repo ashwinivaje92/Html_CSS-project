@@ -1,0 +1,117 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	 background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg-1.jpg);
+	align-items: center;
+	min-height: 100vh;
+}
+
+.box
+{
+	position: relative;
+	border-radius: 10px;
+	height: 500px;
+	width: 500px;
+}
+.form
+{
+	position: absolute;
+	inset:2px;
+	background:#e0e0e0;
+	padding: 50px 40px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 6px 6px 12px #676767;
+                 
+}
+.form h2
+{
+	text-align: center;
+	color: black;
+	letter-spacing: 8px;
+	transform: scale(1,2);
+	text-decoration: underline;
+	
+}
+.inputbx
+{
+	position: relative;
+	width: 410px;
+	margin-top: 35px;
+}
+.inputbox input
+{
+	width: 100%;
+ padding:10px 0;
+ margin:5px 0;
+ border-left:0;
+ border-top:0;
+ border-right:0;
+ border-bottom: 1px solid #999;
+ outline:none;
+ background: transparent;
+}
+.submit-btn
+{
+ width: 85%;
+ padding: 10px 30px;
+ cursor: pointer;
+ display: block;
+ margin: auto;
+ background: #F3C693;
+ border: 0;
+ outline: none;
+ border-radius: 30px;
+}
+.logbtn
+{
+   top:0;
+   right: 0;
+   margin: 50px;
+   position: absolute;
+   background-color: #e0e0e0;
+   padding: 5px 20px;
+   color: #000;
+   letter-spacing: 1px;
+   border-radius: 22px;
+   background: #e0e0e0;
+   border:none;
+   opacity: 0.8;
+   cursor: pointer;
+   box-shadow: 6px 6px 12px #676767;                 
+}
+.logbtn:active
+{
+	opacity: 1;
+
+}
+.close
+{
+	color: #000;
+	font-size: 2em;
+	cursor: pointer;
+	background-color: #bebebe;
+	padding: 2px 20px;
+}
+button
+{
+	border:none;
+	outline: none;
+	background:linear-gradient(#ffff,#666);
+	background-size: 200% 200%;
+	padding: 11px 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+}
